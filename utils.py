@@ -74,7 +74,7 @@ def descargar_datos() -> None:
             data = response.json()
             df = pd.DataFrame(data['results'])
             df.to_csv(f'{endpoint}.csv', sep=';', decimal=',',
-                      encoding='mbcs', index=False)
+                      encoding='utf-8', index=False)
         else:
             st.error(f"Error {response.status_code} al descargar {endpoint}")
 
@@ -97,7 +97,7 @@ def cargar_dataframes() -> dict:
             f"{endpoint}.csv",
             sep=';',
             decimal=',',
-            encoding='mbcs'
+            encoding='utf-8'
         ).reset_index(drop=True)
 
         df['fechaInformacion'] = pd.to_datetime(df['fechaInformacion'],
