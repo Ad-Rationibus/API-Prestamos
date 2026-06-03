@@ -1,0 +1,34 @@
+[theme]
+font = "sans-serif"
+headingFont = "serif"
+
+primaryColor=""
+backgroundColor="floralwhite"
+secondaryBackgroundColor="peru"
+textColor="#3A2F2F"
+linkColor="darkOrchid"
+linkUnderline=true
+codeTextColor=""
+codeBackgroundColor=""
+baseRadius="2"
+buttonRadius="4"
+borderColor="maroon"
+dataframeBorderColor=""
+dataframeHeaderBackgroundColor="linen"
+showWidgetBorder=false
+
+[theme.sidebar]
+primaryColor="tan"
+backgroundColor="linen"
+secondaryBackgroundColor=""
+textColor=""
+linkColor=""
+linkUnderline=true
+codeTextColor=""
+codeBackgroundColor=""
+baseRadius="2"
+buttonRadius=""
+borderColor="maroon"
+dataframeBorderColor=""
+dataframeHeaderBackgroundColor=""
+showWidgetBorder=true
