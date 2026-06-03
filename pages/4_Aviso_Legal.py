@@ -56,7 +56,7 @@ El usuario es responsable de:
 
 ## Contacto
 
-Si necesitás reportar un error técnico del sitio, podés comunicarte con el administrador del sistema.
+Si necesitás reportar un error técnico del sitio, podés comunicarte con el administrador del sistema [adrationibus@gmail.com](mailto:adrationibus@gmail.com).
 
 """
 )

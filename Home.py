@@ -26,7 +26,7 @@ st.sidebar.image("logo.png", width=160)
 # PRESENTACIÓN
 # ============================================================
 
-st.title("Consultas de Préstamos – BCRA")
+st.title("Consultas de Préstamos")
 st.markdown(
     """
 Bienvenido!
