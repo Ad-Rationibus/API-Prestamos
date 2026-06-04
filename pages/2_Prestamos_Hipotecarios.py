@@ -158,8 +158,8 @@ for campo in campos_a_usar:
 # TABLA + DESCARGA
 # ============================================================
 
-st.title("Préstamos Hipotecarios – BCRA")
-st.markdown("Consulta, filtrado y descarga de datos oficiales del BCRA.")
+st.title("Préstamos Hipotecarios")
+st.markdown("Consulta, filtrado y descarga de datos oficiales publicados por el BCRA.")
 
 df_filtrado = aplicar_filtros(df, filtros)
 
